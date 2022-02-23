@@ -29,7 +29,7 @@ In 4-bit gray code, the 3-bit code is reflected against the axis drawn after the
 
 ![binary-to-gray-code-converter-ckt](https://user-images.githubusercontent.com/100235259/155311927-7f023274-42e0-43ac-98ad-895c4b28f373.png)
 
-fig(a) Binary to Gray code conversion
+Fig(a) Binary to Gray code conversion
 
 
 ## How to Change a Binary Code into a Gray Code
@@ -74,18 +74,38 @@ G3=B3.
  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
  
 
-## Simulation in Synopsys:
-# Schamatic
-(a)INVERTER
+# Simulation in Synopsys:
+## Schamatic
 ![inverter](https://user-images.githubusercontent.com/100235259/155359719-88a9835f-2695-4904-be8d-c63103737981.png)
 
-(b)SYMBOL OF INVERTER
+ Fig(b):INVERTER
+ ***
+ 
+
 ![s_inv](https://user-images.githubusercontent.com/100235259/155359742-5e0fdd5d-51d8-4798-a829-e4cf8998b02f.png)
 
+ Fig(c):SYMBOL OF INVERTER
+******
 
-(c)XOR GATE
+
+
 ![xor_sch](https://user-images.githubusercontent.com/100235259/155359904-be94619d-0cbb-4ded-96ad-bb22e6ce7e4d.png)
 
-(b)SYMBOL OF XOR GATE
+Fig(d):XOR GATE
+
+*********
+
 
 ![xor_sym](https://user-images.githubusercontent.com/100235259/155359912-0088ffbe-7cc1-4ac4-bdff-745983cd00c7.png)
+
+Fig(e):SYMBOL OF XOR GATE
+************
+
+
+![schamatic_B2G](https://user-images.githubusercontent.com/100235259/155361133-9a3c098f-4da3-42bd-94b4-b4485fde3832.png)
+Fig(f):SCHAMATIC OF BINARY TO GRAY CONVERTE
+***********
+# output Waveform
+
+![Screenshot from 2022-02-23 09-29-20 (1)](https://user-images.githubusercontent.com/100235259/155361869-a113ea0e-b772-44cd-af81-7819b07fd546.png)
+Fig(g): Output waveform of 4-bit binary to gray converter
