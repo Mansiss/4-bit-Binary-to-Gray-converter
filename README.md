@@ -36,3 +36,14 @@ How to Convert Binary to Gray Code
 
 
 3)In order to get the 3rd bit of the gray code, we need to perform the exclusive-or (XOR) of the 2nd and 3rd bit of the binary number. The process remains the same for the 4th bit of the Gray code. Let's take an example to understand these steps.
+
+The output equations are:
+
+G0=B0 xor B1,
+
+
+G1=B1 xor B2
+
+G2=G2 xor G3
+
+G3=B3.
