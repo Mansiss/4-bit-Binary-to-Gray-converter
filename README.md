@@ -74,5 +74,9 @@ G3=B3.
  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
  
 
-## Pre-Layout Schematics and Simulations:
+## Simulation in Synopsys:
+# Schamatic
+(a)INVERTER
+(b)SYMBOL OF INVERTER
+(c)
 
