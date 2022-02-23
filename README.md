@@ -60,13 +60,19 @@ G3=B3.
 
 
 Tools Used:
+
+
 • Synopsys Custom Compiler:
  The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+ 
 
 • Synopsys Primewave:
  PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+ 
+
 
 • Synopsys 28nm PDK:
  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
+ 
 
 Pre-Layout Schematics and Simulations:
