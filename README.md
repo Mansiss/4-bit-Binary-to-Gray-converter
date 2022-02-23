@@ -6,11 +6,11 @@ Table of contents:
 Introduction
 
 
-Binary to Gray code conversion
+# Binary to Gray code conversion
 **************
 
 
-How to Convert Binary to Gray Code
+## How to Convert Binary to Gray Code
 ****************
 
 
