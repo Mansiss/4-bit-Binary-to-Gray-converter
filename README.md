@@ -2,7 +2,7 @@
 This repository presents the design of 4-bit BINARY TO GRAY CONVERTER implemented using Synopsis Custom Compiler on 28nm CMOS Technology.
 
 Table of contents:
-*********
+
 
 
 
@@ -30,7 +30,7 @@ In 4-bit gray code, the 3-bit code is reflected against the axis drawn after the
 ![binary-to-gray-code-converter-ckt](https://user-images.githubusercontent.com/100235259/155311927-7f023274-42e0-43ac-98ad-895c4b28f373.png)
 
 Binary to Gray code conversion
-*********
+
 
 ## How to Change a Binary Code into a Gray Code
 
