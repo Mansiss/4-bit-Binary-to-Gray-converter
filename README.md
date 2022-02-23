@@ -77,6 +77,8 @@ G3=B3.
 ## Simulation in Synopsys:
 # Schamatic
 (a)INVERTER
+/home/mansishukla1199/Desktop/inverter.png
 (b)SYMBOL OF INVERTER
+/home/mansishukla1199/Desktop/s_inv.png
 (c)
 
