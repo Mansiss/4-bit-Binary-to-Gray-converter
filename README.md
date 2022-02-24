@@ -5,7 +5,7 @@ This repository presents the design of 4-bit BINARY TO GRAY CONVERTER implemente
  * [Introduction](#Introduction)
  * [Binary to Gray Conversion Steps](#Converting-from-binary-to-grayscale)
  * [Tools Used](#Tools-Used)
- * [Simulation in Synopsys](#Simulation in Synopsys)
+ * [Simulation in Synopsys](#Simulation-in-Synopsys)
  * [Netlist of the Circuit](#Netlist-of-the-Circuit)
  * [Author](#Author)
  * [Acknowledgements](#Acknowledgements)
