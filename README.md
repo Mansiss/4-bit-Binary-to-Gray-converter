@@ -143,6 +143,94 @@ Fig(g): Output waveform of 4-bit binary to gray converter
 
 # Netlist of the Circuit
 
+*  Generated for: PrimeSim
+*  Design library name: B2G
+*  Design cell name: BINARY_2_GRAY
+*  Design view name: schematic
+.lib '/PDK/SAED_PDK32nm/hspice/saed32nm.lib' TT
+
+*Custom Compiler Version S-2021.09
+*Thu Feb 24 09:34:17 2022
+
+.global gnd!
+********************************************************************************
+* Library          : inverter_ms2
+* Cell             : inv
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt inv gnd_1 i out vdd
+xm1 out i vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm6 out i gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+.ends inv
+
+********************************************************************************
+* Library          : xor_2_gate
+* Cell             : xor_new
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+.subckt xor_new a b gnd_1 out vdd
+xi1 gnd_1 a net12 vdd inv
+xi0 gnd_1 b net16 vdd inv
+xm5 net21 b gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm4 out a net21 net21 n105 w=0.1u l=0.03u nf=1 m=1
+xm3 net13 net16 gnd_1 gnd_1 n105 w=0.1u l=0.03u nf=1 m=1
+xm2 out net12 net13 net13 n105 w=0.1u l=0.03u nf=1 m=1
+xm9 out net16 net37 net37 p105 w=0.1u l=0.03u nf=1 m=1
+xm8 out net12 net37 net37 p105 w=0.1u l=0.03u nf=1 m=1
+xm7 net37 b vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+xm6 net37 a vdd vdd p105 w=0.1u l=0.03u nf=1 m=1
+.ends xor_new
+
+********************************************************************************
+* Library          : B2G
+* Cell             : BINARY_2_GRAY
+* View             : schematic
+* View Search List : hspice hspiceD schematic spice veriloga
+* View Stop List   : hspice hspiceD
+********************************************************************************
+xi2 b1 b0 gnd! g0 net13 xor_new
+xi1 b2 b1 gnd! g1 net8 xor_new
+xi0 b3 b2 gnd! g2 net3 xor_new
+v5 net13 gnd! dc=1.8
+v4 net8 gnd! dc=1.8
+v3 net3 gnd! dc=1.8
+v15 b0 gnd! dc=0 pulse ( 0 1 0 0.1u 0.1u 10u 20u )
+v14 b1 gnd! dc=0 pulse ( 0 1 0 0.1u 0.1u 20u 40u )
+v13 b2 gnd! dc=0 pulse ( 0 1 0 0.1u 0.1u 40u 80u )
+v12 b3 gnd! dc=0 pulse ( 0 1 0 0.1u 0.1u 50u 100u )
+
+
+
+
+
+
+
+
+.tran '1u' '100u' name=tran
+
+.option primesim_remove_probe_prefix = 0
+.probe v(*) i(*) level=1
+.probe tran v(b0) v(b1) v(b2) v(g0) v(g1) v(g2) v(b3)
+
+.temp 25
+
+
+
+.option primesim_output=wdf
+
+
+.option parhier = LOCAL
+
+
+
+
+
+
+.end
 
 
 ## Author
