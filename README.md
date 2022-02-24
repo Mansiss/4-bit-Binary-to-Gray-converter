@@ -1,9 +1,15 @@
 # 4-bit-Binary-to-Gray-converter
 This repository presents the design of 4-bit BINARY TO GRAY CONVERTER implemented using Synopsis Custom Compiler on 28nm CMOS Technology.
 
-Table of contents:
-
-
+# Table of contents:
+ * [Introduction](#Introduction)
+ * [Binary to Gray Conversion Steps](#Converting-from-binary-to-grayscale)
+ * [Tools Used](#Tools-Used)
+ * [Simulation in Synopsys](#Simulation in Synopsys)
+ * [Netlist of the Circuit](#Netlist-of-the-Circuit)
+ * [Author](#Author)
+ * [Acknowledgements](#Acknowledgements)
+ * [References](#References)
 
 
 
@@ -46,7 +52,6 @@ Decimal Number	4-bit Binary Code	4-bit Gray Code:
 
 
 
-In 4-bit gray code, the 3-bit code is reflected against the axis drawn after the 24-1-1th =8th row.
 
 ![binary-to-gray-code-converter-ckt](https://user-images.githubusercontent.com/100235259/155311927-7f023274-42e0-43ac-98ad-895c4b28f373.png)
 
@@ -126,10 +131,22 @@ Fig(e):SYMBOL OF XOR GATE
 ![B2GGG (1)](https://user-images.githubusercontent.com/100235259/155491290-c029a518-c767-4dc3-a7b0-320a13392660.png)
 
 
+
 Fig(f):SCHAMATIC OF BINARY TO GRAY CONVERTE
 ***********
-# output Waveform
+# Output Waveform
 ![SCH1234 (1)](https://user-images.githubusercontent.com/100235259/155491342-d5f87958-45a6-40c9-afc1-9192e914122e.png)
 
 
 Fig(g): Output waveform of 4-bit binary to gray converter
+
+
+#Netlist of the Circuit
+
+
+
+#Author
+
+#Acknowledgements
+
+#References
