@@ -64,19 +64,19 @@ Fig(a) Binary to Gray code conversion
 
 3)To obtain the 3rd bit of the grey code, we must conduct an exclusive-or (XOR) operation on the binary number's 2nd and 3rd bits. For the 4th bit of the Gray code, the procedure is the same. To further comprehend these stages, consider the following scenario.
 
+The output equtions are:-
 
+```sh
 
-
-G0=B0 xor B1,
-
-
-
+G0=B0 xor B1
 
 G1=B1 xor B2
 
 G2=G2 xor G3
 
 G3=B3.
+
+```
 
 
 ## Tools Used:
