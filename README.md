@@ -141,12 +141,16 @@ Fig(f):SCHAMATIC OF BINARY TO GRAY CONVERTE
 Fig(g): Output waveform of 4-bit binary to gray converter
 
 
-#Netlist of the Circuit
+# Netlist of the Circuit
 
 
 
-#Author
+## Author
+• Mansi Shukla, M.Tech(Vlsi and Embedded Systems), IIIT–Naya Raipur, Atal Nagar – 493661
 
-#Acknowledgements
+# Acknowledgements
+• <a href='https://www.iith.ac.in/events/2022/02/15/Cloud-Based-Analog-IC-Design-Hackathon/'>Cloud Based Analog IC Design Hackathon</a></br>
+• <a href='https://www.synopsys.com/'>Synopsys India</a></br>
+• <a href='https://www.vlsisystemdesign.com/'>VLSI System Design (VSD) Corp. Pvt. Ltd India</a></br>
 
-#References
+# References
