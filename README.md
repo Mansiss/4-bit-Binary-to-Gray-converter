@@ -21,7 +21,28 @@ The following is the 4-bit binary to grey code conversion table:
 
 Decimal Number	4-bit Binary Code	4-bit Gray Code:
 
-![binary_grey2](https://user-images.githubusercontent.com/100235259/155311681-38be9f41-85b3-4843-af50-96da6f6f1473.jpg)
+
+| Decimal | Binary(B3 B2 B1 B0) | Gray(G3 G2 G1 G0)|
+| ------ | ------ |  ------ |
+| 0 | 0000 | 0000 |
+| 1 | 0001 | 0001 |
+| 2 | 0010 | 0011 |
+| 3 | 0011 | 0010 |
+| 5 | 0100 | 0110 |
+| 5 | 0101 | 0111 |
+| 6 | 0110 | 0101 |
+| 7 | 0111 | 0100 |
+| 8 | 1000 | 1100 |
+| 9 | 1001 | 1101 |
+| 10 | 1010 | 1111 |
+| 11 | 1011 | 1110 |
+| 12 | 1100 | 1010 |
+| 13 | 1101 | 1011 |
+| 14 | 1110 | 1001 |
+| 15 | 1111 | 1000 |
+
+
+
 
 
 
