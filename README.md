@@ -50,6 +50,7 @@ In 4-bit gray code, the 3-bit code is reflected against the axis drawn after the
 
 ![binary-to-gray-code-converter-ckt](https://user-images.githubusercontent.com/100235259/155311927-7f023274-42e0-43ac-98ad-895c4b28f373.png)
 
+
 Fig(a) Binary to Gray code conversion
 
 
@@ -82,16 +83,16 @@ G3=B3.
 ## Tools Used:
 
 
-• Synopsys Custom Compiler:
- The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
+- Synopsys Custom Compiler:
+The Synopsys Custom Compiler™ design environment is a modern solution for full-custom analog, custom digital, and mixed-signal IC design. As the heart of the Synopsys Custom Design Platform, Custom Compiler provides design entry, simulation management and analysis, and custom layout editing features. This tool was used to design the circuit on a transistor level.
  
 
-• Synopsys Primewave:
- PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
+- Synopsys Primewave:
+PrimeWave™ Design Environment is a comprehensive and flexible environment for simulation setup and analysis of analog, RF, mixed-signal design, custom-digital and memory designs within the Synopsys Custom Design Platform. This tool helped in various types of simulations of the above designed circuit.
  
 
 
-• Synopsys 28nm PDK:
+- Synopsys 28nm PDK:
  The Synopsys 28nm Process Design Kit(PDK) was used in creation and simulation of the above designed circuit.
  
 
@@ -122,11 +123,13 @@ Fig(d):XOR GATE
 Fig(e):SYMBOL OF XOR GATE
 ************
 
+![B2GGG (1)](https://user-images.githubusercontent.com/100235259/155491290-c029a518-c767-4dc3-a7b0-320a13392660.png)
 
-![schamatic_B2G](https://user-images.githubusercontent.com/100235259/155361133-9a3c098f-4da3-42bd-94b4-b4485fde3832.png)
+
 Fig(f):SCHAMATIC OF BINARY TO GRAY CONVERTE
 ***********
 # output Waveform
+![SCH1234 (1)](https://user-images.githubusercontent.com/100235259/155491342-d5f87958-45a6-40c9-afc1-9192e914122e.png)
 
-![Screenshot from 2022-02-23 09-29-20 (1)](https://user-images.githubusercontent.com/100235259/155361869-a113ea0e-b772-44cd-af81-7819b07fd546.png)
+
 Fig(g): Output waveform of 4-bit binary to gray converter
