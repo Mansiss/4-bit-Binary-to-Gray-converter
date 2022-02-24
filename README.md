@@ -154,3 +154,4 @@ Fig(g): Output waveform of 4-bit binary to gray converter
 • <a href='https://www.vlsisystemdesign.com/'>VLSI System Design (VSD) Corp. Pvt. Ltd India</a></br>
 
 # References
+[1]Babu, P. Ashok, et al. "Realization of 8 x 4 Barrel shifter with 4-bit binary to Gray converter using FinFET for Low Power Digital Applications." Journal of Physics: Conference series. Vol. 1714. No. 1. IOP Publishing, 2021.
