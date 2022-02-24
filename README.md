@@ -142,7 +142,7 @@ Fig(g): Output waveform of 4-bit binary to gray converter
 
 
 # Netlist of the Circuit
-
+```sh
 *  Generated for: PrimeSim
 *  Design library name: B2G
 *  Design cell name: BINARY_2_GRAY
@@ -231,7 +231,7 @@ v12 b3 gnd! dc=0 pulse ( 0 1 0 0.1u 0.1u 50u 100u )
 
 
 .end
-
+```
 
 ## Author
 • Mansi Shukla, M.Tech(Vlsi and Embedded Systems), IIIT–Naya Raipur, Atal Nagar – 493661
